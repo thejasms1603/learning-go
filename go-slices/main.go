@@ -116,3 +116,17 @@ func main() {
 	test("Sally", 2, planPro)
 	test("Sally", 3, "no plan")
 }
+
+
+package main
+
+import ( "fmt" )
+
+func main() {
+	var users []string
+	if( users == nil) {
+		fmt.Println("users is nil")
+	} else {
+		fmt.Println("users is not nil")
+	}
+}
